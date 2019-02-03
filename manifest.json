@@ -1,0 +1,36 @@
+{
+  "Actions": [
+    {
+      "Icon": "images/actionIcon",
+      "Name": "WeMo",
+      "States": [
+        {
+          "Image": "images/actionDefaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Turn on and off your favorite WeMo plugs",
+      "UUID": "csharpfritz.SmartHome.Wemo"
+    }
+  ],
+  "Author": "",
+	"CodePathWin": "Fritz.SmartHome.exe",
+	"CodePathMac":  "Fritz.SmartHome",
+  "Description": "Control all your smart home devices",
+  "Name": "Fritz.SmartHome",
+  "Icon": "images/pluginIcon",
+  "URL": "https://www.elgato.com/gaming/stream-deck",
+  "Version": "1.0",
+  "OS": [
+    {
+        "Platform": "mac",
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows",
+        "MinimumVersion" : "10"
+    }
+  ]
+}
